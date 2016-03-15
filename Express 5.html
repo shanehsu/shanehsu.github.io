@@ -22,7 +22,7 @@
   <style> .text-cell {font-size: 15px;}.code-cell {font-size: 12px;}.markdown-cell {font-size: 15px;}.latex-cell {font-size: 15px;}</style>
 </head>
 <body>
-  <div id="nav"><div>Previous: <a href='Node.js.html'>Node.js</a>, Up: <a href='index.html'>Index</a></div></div>
+  <div id="nav"><div>Next: <a href='範例程式.html'>範例程式</a>, Previous: <a href='Node.js.html'>Node.js</a>, Up: <a href='index.html'>Index</a></div></div>
   <div id="titlearea">
     <h2>Express 5</h2>
   </div>
@@ -293,7 +293,7 @@
 <p>假設 <code>Vary: Accept-Language</code>，那就代表，我們的網頁會有多種語言，當你改變你所接受的語言，應該重新送出要求，以獲得最適合的資訊。</p>
 </div><div class="cell markdown-cell"><h2 id="-express-5-">[Express 5]路由器</h2>
 <p>路由器提供子路由。</p>
-</div><div class="cell code-cell"><div class="ace-xcode"><div class="ace_static_highlight ace_show_gutter" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_gutter ace_gutter-cell" unselectable="on"></span><span class="ace_storage ace_type">const</span>&nbsp;<span class="ace_identifier">router</span>&nbsp;<span class="ace_keyword ace_operator">=</span>&nbsp;<span class="ace_identifier">app</span><span class="ace_punctuation ace_operator">.</span><span class="ace_identifier">router</span><span class="ace_paren ace_lparen">(</span><span class="ace_paren ace_rparen">)</span>
+</div><div class="cell code-cell"><div class="ace-xcode"><div class="ace_static_highlight ace_show_gutter" style="counter-reset:ace_line 0"><div class="ace_line"><span class="ace_gutter ace_gutter-cell" unselectable="on"></span><span class="ace_storage ace_type">const</span>&nbsp;<span class="ace_identifier">router</span>&nbsp;<span class="ace_keyword ace_operator">=</span>&nbsp;<span class="ace_identifier">app</span><span class="ace_punctuation ace_operator">.</span><span class="ace_identifier">router</span>
 </div><div class="ace_line"><span class="ace_gutter ace_gutter-cell" unselectable="on"></span>
 </div><div class="ace_line"><span class="ace_gutter ace_gutter-cell" unselectable="on"></span><span class="ace_identifier">app</span><span class="ace_punctuation ace_operator">.</span><span class="ace_identifier">use</span><span class="ace_paren ace_lparen">(</span><span class="ace_string">'/routedPath'</span><span class="ace_punctuation ace_operator">,</span>&nbsp;<span class="ace_identifier">router</span><span class="ace_paren ace_rparen">)</span>
 </div></div></div></div><div class="cell markdown-cell"><h2 id="-express-4-">[Express 4] 路由器</h2>
@@ -302,6 +302,7 @@
 <p><code>router.all(path, callback)</code><br><code>router.get(path, callback)</code> 系列<br><code>router.param(name, callback)</code><br><code>router.route(path)</code><br><code>router.use(path, function)</code></p>
 </div></div>
   <script>document.body.onkeyup = function(e) {
+if (e.keyCode === 39) window.location.href = '範例程式.html';
 if (e.keyCode === 37) window.location.href = 'Node.js.html';
 }</script>
 </body>
