@@ -98,8 +98,8 @@
 </div></div></div></div><div class="cell markdown-cell"><p>RethinkDB 提供的選項有</p>
 <ul>
 <li><code>readMode</code> - 當在叢集中的讀取方式<ul>
-<li><code>single</code>（預設值）- </li><li><code>majority</code></li><li><code>outdated</code></li></ul>
-</li></ul>
+<li><code>single</code>（預設值）- 從主伺服器（Primary replica）中讀取在記憶體中的內容（不一定被寫入硬碟）</li><li><code>majority</code> - 從多個伺服器中，確認寫入硬碟中的資料大部分為哪寫（可能有部分伺服器尚未更新），並讀取</li><li><code>outdated</code> - 從一個伺服器中讀取在記憶體中的內容（最快、最不準確）</li></ul>
+</li><li><code>timeFormat</code> - 時間的格式</li></ul>
 </div></div>
   <script>document.body.onkeyup = function(e) {
 if (e.keyCode === 39) window.location.href = 'RethinkDB 範例程式.html';
